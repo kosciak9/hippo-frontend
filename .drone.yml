@@ -1,0 +1,10 @@
+pipeline:
+    frontend-tests:
+        image: cypress/base:latest
+        commands:
+            - npm i -g yarn
+            - yarn
+            - yarn run test:unit --coverage
+            - yarn run test:e2e --headless
+        when:
+            branch: master
