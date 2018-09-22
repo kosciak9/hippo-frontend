@@ -1,4 +1,12 @@
-# frontend-v2
+# hippo-frontend
+
+![build badge](https://drone.alergeek.me/api/badges/kosciak/hippo-frontend/status.svg)
+![code coverage](https://cov.alergeek.me/api/project_badges/measure?project=hippo_frontend&metric=coverage)
+![maintainability rating](https://cov.alergeek.me/api/project_badges/measure?project=hippo_frontend&metric=sqale_rating)
+
+Frontend for hippo, availability tool for amateur football teams.
+
+Using `vue-cli` and `quasar`.
 
 ## Project setup
 ```
@@ -29,3 +37,4 @@ yarn run test:unit
 ```
 yarn run test:e2e
 ```
+
